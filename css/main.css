@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.box {
+  width: 500px;
+  background-color: hotpink;
+  padding: 25px;
+  margin: 150px auto;
+  border-radius: 25px;
+}
+div.box > h1 {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+div.box > p {
+  color: white;
+  text-align: justify;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+div.box > h6 {
+  color: white;
+  text-align: justify;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px black;
+}
